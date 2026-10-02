@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+  "language": "en",
+  "updated_at": "2026-10-02T12:35:32Z",
+  "pages": {
+    "benchmark": {
+      "title": "Benchmark",
+      "summary": "Performance benchmarking script for measuring escape operation efficiency.",
+      "files": [
+        "bench.py"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "fc94e5f5152b8e1ca1e56449c28cb3b404d06b2928bfd848db9d6ac06ed66b7a"
+    },
+    "build-packaging": {
+      "title": "Build and Packaging",
+      "summary": "Configuration for building, publishing to PyPI, and packaging the library with dependency management.",
+      "files": [
+        "MANIFEST.in",
+        "pyproject.toml",
+        "setup.py"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "882a0e0e803aa5939a0cd4f777675fe0ea6ba1875e6d096c7fd07db6d1879a74"
+    },
+    "ci-workflows": {
+      "title": "CI and Workflows",
+      "summary": "GitHub Actions configuration for running tests, code quality checks, building, and publishing releases.",
+      "files": [
+        ".github/workflows/lock.yaml",
+        ".github/workflows/pre-commit.yaml",
+        ".github/workflows/publish.yaml",
+        ".github/workflows/tests.yaml"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "9f95c0ab995eff57a0e982a2a90ccffdbbb86c9e04f235e9aed1c34fdb97ffe3"
+    },
+    "development-setup": {
+      "title": "Development Setup",
+      "summary": "Developer environment configuration including dev containers, editor settings, and pre-commit hooks.",
+      "files": [
+        ".devcontainer/devcontainer.json",
+        ".devcontainer/on-create-command.sh",
+        ".editorconfig",
+        ".pre-commit-config.yaml"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "17c760b7566646abb624d998adede0b48ff40713b38022a11432d23320a6342f"
+    },
+    "documentation": {
+      "title": "Documentation",
+      "summary": "User guides and API reference covering escaping behavior, formatting with Markup, HTML handling, and configuration for Read the Docs.",
+      "files": [
+        ".readthedocs.yaml",
+        "docs/conf.py",
+        "docs/escaping.rst",
+        "docs/formatting.rst",
+        "docs/html.rst"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "c9b1e763f29bc04640ae43248aca8dcb306485329b49c25e0c2a3b90ca618b3e"
+    },
+    "index": {
+      "title": "Overview",
+      "summary": "Entry point of the wiki.",
+      "files": [
+        "README.md",
+        "pyproject.toml"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "6fe48543a5f3c01e473f2defd7e12d91203f2937d8a8e0ed6039cf81f147b9b5"
+    },
+    "markup-safe-core": {
+      "title": "Markup Safe Core",
+      "summary": "The Markup class and escape function that form the heart of MarkupSafe, providing safe HTML/XML text handling and injection attack mitigation.",
+      "files": [
+        "src/markupsafe/__init__.py",
+        "src/markupsafe/_native.py"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "b0299077b541aece558aff28db7f8674269eeb9e7691305385c02f9f1e516fe5"
+    },
+    "performance-speedups": {
+      "title": "Performance Speedups",
+      "summary": "C extension module that provides optimized implementations of core escaping operations for improved performance.",
+      "files": [
+        "src/markupsafe/_speedups.c",
+        "src/markupsafe/_speedups.pyi"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "8ba546282a4a68e36902d6f994131afab0230b9ecf28477dd122dde52a48a4d2"
+    },
+    "testing-suite": {
+      "title": "Testing Suite",
+      "summary": "Comprehensive test coverage for escape operations, Markup behavior, exception handling, and memory leak detection.",
+      "files": [
+        "tests/conftest.py",
+        "tests/test_escape.py",
+        "tests/test_exception_custom_html.py",
+        "tests/test_ext_init.py",
+        "tests/test_leak.py",
+        "tests/test_markupsafe.py"
+      ],
+      "commit": "b8ed616eb769578eac1bfb0eb42316be5a39e16b",
+      "hash": "9e621970af06c40d6e7ed0679c9c24867ce6c4263a948b0cfff8239079dad571"
+    }
+  },
+  "unassigned": [
+    ".github/ISSUE_TEMPLATE/bug-report.md",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature-request.md",
+    ".github/pull_request_template.md",
+    ".gitignore",
+    "CHANGES.rst",
+    "LICENSE.txt",
+    "docs/Makefile",
+    "docs/changes.rst",
+    "docs/index.rst",
+    "docs/license.rst",
+    "docs/make.bat"
+  ]
+}
